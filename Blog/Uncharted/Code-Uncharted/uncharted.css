@@ -14,6 +14,30 @@ body{
     border-radius: 30px;
 }
 
+.navbar{
+    background-color: #4D4C7D;
+    border: 3px solid #F99417;
+    border-radius: 30px;
+    
+}
+
 ul{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:space-around;
     list-style-type: none;
+}
+
+li{
+    display: inline-block;
+    color: #F5F5F5;
+    transition: 0.3s;
+    margin-right: 5%;
+    margin-left: 5%;
+}
+
+li:hover{
+    color: #F99417;
+    transition: 0.3s;
 }
