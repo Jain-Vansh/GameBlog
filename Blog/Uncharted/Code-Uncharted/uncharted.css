@@ -1,0 +1,19 @@
+body{
+    background-color: #363062;
+}
+
+.banner{
+    text-align: center;
+}
+
+.banner-image{
+    /* height: 15%; */
+    width: 100%;
+    box-sizing: border-box;
+    border: 3px solid #F99417;
+    border-radius: 30px;
+}
+
+ul{
+    list-style-type: none;
+}
